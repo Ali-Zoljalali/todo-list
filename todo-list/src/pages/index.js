@@ -162,7 +162,7 @@ export default function Home() {
               </ListItem>
             ))}
           </List>
-          <Button variant="contained" onClick={formik.handleSubmit} align="center">
+          <Button variant="contained" onClick={formik.handleSubmit}>
             Submit
           </Button>
         </Paper>
